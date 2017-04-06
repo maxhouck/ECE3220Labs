@@ -1,0 +1,13 @@
+12:40:29 **** Build of configuration Debug for project Lab6 ****
+make all 
+Building file: ../main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/include/c++/cstdlib:72:0,
+                 from ../main.cpp:8:
+/usr/include/stdlib.h:16:20: fatal error: stddef.h: No such file or directory
+compilation terminated.
+make: *** [subdir.mk:20: main.o] Error 1
+
+12:40:29 Build Finished (took 391ms)
+

@@ -1,0 +1,46 @@
+23:19:48 **** Incremental Build of configuration Debug for project Lab6v2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main(int, char**)':
+..\main.cpp:103:9: error: jump to case label [-fpermissive]
+    case 'f':  //file name
+         ^
+..\main.cpp:100:12: note:   crosses initialization of 'Signal signal'
+     Signal signal(atoi(filenumber));
+            ^
+..\main.cpp:106:27: error: redeclaration of 'Signal signal'
+     Signal signal(filename);
+                           ^
+..\main.cpp:100:12: note: 'Signal signal' previously declared here
+     Signal signal(atoi(filenumber));
+            ^
+..\main.cpp:109:4: error: jump to case label [-fpermissive]
+    default: error_message();
+    ^
+..\main.cpp:100:12: note:   crosses initialization of 'Signal signal'
+     Signal signal(atoi(filenumber));
+            ^
+..\main.cpp:120:12: error: request for member 'display' in 'signal', which is of non-class type 'void (*(int, __p_sig_fn_t))(int) {aka void (*(int, void (*)(int)))(int)}'
+     signal.display();
+            ^
+..\main.cpp:127:12: error: request for member 'offset' in 'signal', which is of non-class type 'void (*(int, __p_sig_fn_t))(int) {aka void (*(int, void (*)(int)))(int)}'
+     signal.offset(offset);
+            ^
+..\main.cpp:135:12: error: request for member 'scale' in 'signal', which is of non-class type 'void (*(int, __p_sig_fn_t))(int) {aka void (*(int, void (*)(int)))(int)}'
+     signal.scale(scale);
+            ^
+..\main.cpp:139:12: error: request for member 'center' in 'signal', which is of non-class type 'void (*(int, __p_sig_fn_t))(int) {aka void (*(int, void (*)(int)))(int)}'
+     signal.center();
+            ^
+..\main.cpp:143:12: error: request for member 'normalize' in 'signal', which is of non-class type 'void (*(int, __p_sig_fn_t))(int) {aka void (*(int, void (*)(int)))(int)}'
+     signal.normalize();
+            ^
+..\main.cpp:147:12: error: request for member 'Sig_info' in 'signal', which is of non-class type 'void (*(int, __p_sig_fn_t))(int) {aka void (*(int, void (*)(int)))(int)}'
+     signal.Sig_info();
+            ^
+..\main.cpp:154:12: error: request for member 'Save_file' in 'signal', which is of non-class type 'void (*(int, __p_sig_fn_t))(int) {aka void (*(int, void (*)(int)))(int)}'
+     signal.Save_file(savename);
+            ^
+
+23:19:49 Build Finished (took 1s.351ms)
+

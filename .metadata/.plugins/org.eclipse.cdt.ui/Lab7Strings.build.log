@@ -1,0 +1,7 @@
+17:19:58 **** Incremental Build of configuration Release for project Lab7Strings ****
+Info: Internal Builder is used for build
+g++ -std=c++0x -O3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Lab7Strings.exe main.o 
+
+17:19:59 Build Finished (took 848ms)
+

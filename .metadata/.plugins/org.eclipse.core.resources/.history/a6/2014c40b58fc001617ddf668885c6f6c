@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<malloc.h>
+void main()
+{
+	char *a = malloc(sizeof(char)*5);
+    a = "hey";
+    free( a );
+    a = "hello";
+    printf("%s",a);
+}

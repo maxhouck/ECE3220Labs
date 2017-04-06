@@ -1,0 +1,34 @@
+17:48:09 **** Incremental Build of configuration Release for project Lab4 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:29:24: warning: implicit declaration of function 'error_message' [-Wimplicit-function-declaration]
+   if(*argument != '-') error_message();
+                        ^
+..\src\main.c:74:2: warning: implicit declaration of function 'read_data' [-Wimplicit-function-declaration]
+  read_data(readfile,data);
+  ^
+..\src\main.c:21:9: warning: variable 'scale' set but not used [-Wunused-but-set-variable]
+  double scale;
+         ^
+..\src\main.c:20:6: warning: variable 'offset' set but not used [-Wunused-but-set-variable]
+  int offset;
+      ^
+..\src\main.c:19:8: warning: variable 'rename' set but not used [-Wunused-but-set-variable]
+  char* rename = malloc(sizeof(char)*10);
+        ^
+..\src\main.c:13:19: warning: unused variable 'writefile' [-Wunused-variable]
+  FILE *readfile, *writefile;
+                   ^
+..\src\main.c: At top level:
+..\src\main.c:78:6: warning: conflicting types for 'read_data'
+ void read_data(FILE* readfile, int *data) {
+      ^
+..\src\main.c:74:2: note: previous implicit declaration of 'read_data' was here
+  read_data(readfile,data);
+  ^
+..\src\main.c: In function 'main':
+..\src\main.c:74:2: warning: 'data' is used uninitialized in this function [-Wuninitialized]
+gcc -o Lab4.exe "src\\main.o" 
+Info: Nothing to build for Lab4
+Info: Nothing to build for Lab4

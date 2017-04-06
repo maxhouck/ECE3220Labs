@@ -1,0 +1,10 @@
+16:09:48 **** Incremental Build of configuration Release for project Lab2 ****
+make all 
+'Building target: Lab2'
+'Invoking: Cross GCC Linker'
+gcc  -o "Lab2"  ./src/Lab2.o   
+'Finished building target: Lab2'
+' '
+
+16:09:50 Build Finished (took 2s.156ms)
+

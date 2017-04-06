@@ -1,0 +1,40 @@
+Info: Nothing to build for Lab8
+Info: Nothing to build for Lab8
+Info: Nothing to build for Lab8
+Info: Nothing to build for Lab8
+17:15:35 **** Incremental Build of configuration Debug for project Lab8 ****
+Info: Internal Builder is used for build
+g++ -std=c++0x "-IC:\\MinGW" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In member function 'void morseCodeMessage::translate()':
+..\main.cpp:121:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(i=0;i<messageText.size();i++) {
+            ^
+..\main.cpp: In member function 'virtual void morseCodeMessage::print()':
+..\main.cpp:129:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(i=0;i<letters.size();i++) {
+           ^
+g++ -o Lab8.exe main.o 
+17:16:22 **** Incremental Build of configuration Debug for project Lab8 ****
+Info: Internal Builder is used for build
+g++ -std=c++0x "-IC:\\MinGW" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In member function 'void morseCodeMessage::translate()':
+..\main.cpp:121:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(i=0;i<messageText.size();i++) {
+            ^
+..\main.cpp: In member function 'virtual void morseCodeMessage::print()':
+..\main.cpp:129:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(i=0;i<letters.size();i++) {
+           ^
+g++ -o Lab8.exe main.o 
+09:42:11 **** Incremental Build of configuration Debug for project Lab8 ****
+Info: Internal Builder is used for build
+g++ -std=c++0x "-IC:\\cygwin64" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In member function 'void morseCodeMessage::translate()':
+..\main.cpp:121:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(i=0;i<messageText.size();i++) {
+            ^
+..\main.cpp: In member function 'virtual void morseCodeMessage::print()':
+..\main.cpp:129:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(i=0;i<letters.size();i++) {
+           ^
+g++ -o Lab8.exe main.o 
